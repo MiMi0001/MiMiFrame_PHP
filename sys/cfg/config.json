@@ -1,0 +1,34 @@
+{
+  "database": {
+    "host" : "127.0.0.1",
+    "database" : "example",
+    "username" : "dbuser",
+    "password" : "password"
+    },
+    
+  "secretKey" :         "osF9pOlH75nRoZlokNhxv3KP3fbeepmlRmdMI1vsLgV7lbX5Y3oXVJWAfzSPM1D",
+  "refreshSecretKey":   "ZNtUODeJcFPqMBBjsW3jzvNNWgTRdJbiVUM1uRWn3kii98AZzNwZbsCJdkEixI2",
+
+  "logs": {
+    "generalLog": {
+      "fileName": "general.log",
+      "enabled": true,
+      "handler": "MiMiLogger"
+    },
+    "urlLog": {      
+      "fileName": "url.log",
+      "enabled": true,
+      "handler": "MiMiLogger"
+    },
+    "sqlLog": {
+      "fileName": "sql.log",
+      "enabled": true,
+      "handler": "MiMiLogger"
+    },
+    "tokenErrors":{
+      "fileName": "tokenErrors.log",
+      "enabled": true,
+      "handler": "MiMiLogger"
+    }    
+  }
+}

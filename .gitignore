@@ -1,0 +1,5 @@
+/sys/vendor/*
+/.phpunit.result.cache
+/.idea/*
+/temp/*
+/sys/logs/*
